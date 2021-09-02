@@ -1,0 +1,50 @@
+/* Font stuff */
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro h1 {
+    color: #220749;
+}
+.intro p {
+    color: #AC94BE;
+}
+
+/* Rows and columns */
+.col {
+    float: left;
+    width: 50%;
+}
+
+.col h2 {
+    text-align: center;
+}
+
+.col p {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: #2C2B2C;
+}
+
+.col img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+/* Specific styling for each site */
+
+#nonono {
+    color: #da5c36;
+}
+
+#discord {
+    color: #5865F2;
+}
